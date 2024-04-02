@@ -9,7 +9,7 @@ import email from "../../../public/email.png"
 
 export default function SecaoContato(){
     return(
-       <section className={estilos.conteudo}>
+       <section className={estilos.conteudo} id="CONTATO">
         <h3 className={estilos.titulo_secao}>Fale conosco</h3>
         <p className={estilos.paragrafo}>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.</p>
         <div className={estilos.secoes}>

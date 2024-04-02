@@ -5,7 +5,7 @@ import loja from "../../../public/loja.png"
 
 export default function SecaoSobre(){
     return(
-        <section id="CONTATO" className={estilos.secao}>
+        <section id="SOBRE" className={estilos.secao}>
             <h3 className={estilos.titulo_secao}>QUEM SOMOS NÓS?</h3>
             <p className={estilos.paragrado}>Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, a Óticas vida iniciou suas atividades focada no atendimento ao público de renda mais baixa, sempre com o objetivo de proporcionar ao cliente bom atendimento, qualidade e preço baixo.</p>
             <div className={estilos.cards}>
