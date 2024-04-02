@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    height:90vh;
+    width: 100vw;
+    margin-top: 10px;
+    background:url("../../public/capa.png") right no-repeat;
+    background-size: 100vw 95vh;
+}
+.capa{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.capa div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.capa p{
+  color: #c4c4c4;
+}
+.titulo{
+  font-size: 4vh;
+}
+.paragrafo{
+  font-size: 3vh;
+}

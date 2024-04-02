@@ -1,0 +1,84 @@
+.secao{
+    background-color: #f8f7ff;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.secao p{
+    max-width: 1024px;
+    text-align: center;
+}
+.cards{
+    margin-top: 60px;
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    height: 300px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.card div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.imagem{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.titulo_secao, .subtitulo{
+font-size: 3vh;
+}
+.paragrafo{
+    color: #4a4a4a;
+    font-size: 2vh;
+}
+@media(max-width:767px){
+    .titulo_secao{
+        font-size: 4vh;
+    }
+    .cards{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .card{
+        width: 100%;
+    }
+    .subtitulo{
+        font-size: 4vh;
+    }
+    .paragrafo{
+        font-size: 3vh;
+    }
+}
+@media(max-width:1023px){
+    .secao p{
+        max-width: 1200px;
+    }
+    .cards{
+        max-width: 1200px;
+    }
+}
+@media(min-width:1440px){
+    .secao p{
+        max-width: 1440px;
+    }
+    .cards{
+        max-width: 1440px;
+    }
+}
